@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery-ui
+//= require handle-numeric-format
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
