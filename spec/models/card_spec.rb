@@ -1,5 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe Card, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it 'should persist a card' do
+    Card.create(credit_card_number: 123456789)
+
+    expect(Card.count).to eq(1)
+  end
 end
